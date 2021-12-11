@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+/*html{
+	background:url("http://2.bp.blogspot.com/-aDCZ6SGj7iM/ThV6j26dYlI/AAAAAAAABKs/kZhoPlIoD2o/s1600/%25D0%25BF%25D0%25B0%25D0%25BD+%25D0%25BD%25D0%25B5%25D0%25B1%25D0%25BE+%25D0%25B6%25D0%25B5%25D0%25BB+%25D1%2586%25D0%25B2.jpg") no-repeat;
+	background-size: cover;
+}*/
+a{
+	color: #fa713e;
+	text-decoration: none;
+	transition: all.6s ease;
+}
+a:hover{ /*ссылка при наведении на неё*/
+	color: #c34f25;
+	text-decoration: none;
+	transition: all.6s ease;/*плавные переходы*/
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+hr{/*Горизонтальные линии*/
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1pxx solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+
+}
+
+header {
+	float:left;
+    width:99.4%;
+	background-color:#343434;
+	border-bottom:5px solid #59595a; /*стиль нижней границы для разных элементов*/
+	padding:0.3%;
+}
+header>div#name>a>img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+header>div#name>a{
+	color: white;
+}
+header>div#name>a>span{
+	font-size: 2.5em;
+	margin-left: 10px;
+	font-family: 'Suez One',serif;
+}
+header>div#name>a>img{
+	margin-left: 15%;
+}
+#name{
+	float:left;
+	width: 30%;
+}
+#about{
+	float: left;
+	width: 37%;
+}
+#reg_entry{
+	float: right;
+    width: 30%;
+}
+#about{
+	text-align: center;
+	font-family: 'Roboto Slab' serif;/*serif — шрифты с засечками*/
+	font-size: 1.4em;
+	padding-top: 10px;
+
+}
+#about>a{
+	color: white;
+}
+#about>a:hover{
+	color:#dfdfdf;
+	border-bottom: 1px solid silver;
+}
+#about>a:last-child{ 
+	margin-left: 10%;/*отступ для последней ссылки блока*/
+
+}
+#reg_entry>a{
+	color: white;
+}
+#btn:hover{
+	border-bottom: 4px solid rgba(217,91,72,1);
+	margin-top: 7px;
+}
+#btn:active{/*Активная ссылка,задаем стиль елемента,когда наводим на него*/
+	border-bottom: 0;
+	margin-top: 9px;
+}
+#btn{
+	float: right;
+	margin-right: 3%;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgba(236,101,80,1);
+	text-shadow: #454545 0 0 2px;
+	border-bottom:4px solid rgba(217,91,72,1) ;
+	font-family: 'Roboto Slab' serif;
+
+}
+/*Конец стилей шапки сайта!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#wrapper{
+	display: flex; /*display-Свойство задает поведение отображения*/
+	flex-direction: column; /*flex-direction-Свойство определяет направление гибких элементов.*/
+	height: 100%;
+}
+#content{
+	flex: 1 0 auto;
+}
+footer{
+	float:left;
+    width:99.4%;
+	background-color:#343434;
+	border-top:5px solid #59595a;
+	padding:0.3%;
+}
+
+	
+
+
+
+
+
+/* div.block1{
+	background-color:white;
+	height:200px;
+	width:200px;
+	border:2px solid red;
+	padding:
+}
+div.block2{
+	background-color:white;
+	padding:20px;
+} */
+/*li.li1{
+	font-size:25px;
+/*}*/
+ 
+
